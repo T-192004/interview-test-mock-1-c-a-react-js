@@ -1,0 +1,32 @@
+.app-container {
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
+  background-color: #eef4f7;
+  text-align: center;
+}
+.main-heading {
+  color: #334155;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  text-decoration: underline #52bbf0;
+  line-height: 2;
+}
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loader {
+  align-self: center;
+}
+.destinations-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 30px;
+}
